@@ -7,11 +7,38 @@ tags:
   - Financial
   - Banks
   - European Banking
-description: 'A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally.'
+  - Open Banking
+  - PSD2
+description: 'A Dutch multinational banking and financial services corporation headquartered in Amsterdam. Provides retail banking, direct banking, commercial banking, and wholesale banking services to millions of customers across Europe and globally. Operates a public Developer Portal exposing Open Banking, PSD2, and payment-related APIs for third-party developers and fintech partners.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: ing:ing-developer-portal
+    name: ING Developer Portal APIs
+    description: >-
+      The ING Developer Portal provides a marketplace of APIs covering Open Banking
+      (PSD2 Account Information and Payment Initiation), payments, and bank-as-a-service
+      capabilities. Third-party providers can register, obtain sandbox credentials,
+      and consume regulated and premium APIs across ING entities in Europe.
+    humanURL: https://developer.ing.com/
+    tags:
+      - Open Banking
+      - PSD2
+      - Payments
+      - Banking
+    properties:
+      - url: https://developer.ing.com/
+        type: Portal
+      - url: https://developer.ing.com/api-marketplace/marketplace
+        type: Marketplace
 common:
   - type: Website
     url: https://www.ing.com/
+  - type: Portal
+    url: https://developer.ing.com/
+  - type: Marketplace
+    url: https://developer.ing.com/api-marketplace/marketplace
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
