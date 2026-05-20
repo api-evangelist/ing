@@ -33,6 +33,10 @@ apis:
       - url: https://developer.ing.com/api-marketplace/marketplace
         type: Marketplace
 common:
+  - type: GitHubOrganization
+    url: https://github.com/ing-bank
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ing
   - type: Website
     url: https://www.ing.com/
   - type: Portal
